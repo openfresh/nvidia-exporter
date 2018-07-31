@@ -5,25 +5,31 @@
   branch = "master"
   name = "github.com/beorn7/perks"
   packages = ["quantile"]
-  revision = "4c0e84591b9aa9e6dcfdf3e020114cd81f89d5f9"
+  revision = "3a771d992973f24aa725d07868b467d1ddfceafb"
 
 [[projects]]
-  branch = "master"
   name = "github.com/golang/protobuf"
   packages = ["proto"]
-  revision = "925541529c1fa6821df4e44ce2723319eb2be768"
+  revision = "b4deda0973fb4c70b50d226b1af49f3da59f5265"
+  version = "v1.1.0"
 
 [[projects]]
   name = "github.com/matttproud/golang_protobuf_extensions"
   packages = ["pbutil"]
-  revision = "3247c84500bff8d9fb6d579d800f20b3e091582c"
-  version = "v1.0.0"
+  revision = "c12348ce28de40eed0136aa2b644d0ee0650e56c"
+  version = "v1.0.1"
 
 [[projects]]
   branch = "master"
   name = "github.com/mindprince/gonvml"
   packages = ["."]
-  revision = "eea82dc7bb371c99a9f2b991088e267ab473b40a"
+  revision = "b364b296c7320f5d3dc084aa536a3dba33b68f90"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/pkg/errors"
+  packages = ["."]
+  revision = "816c9085562cd7ee03e7f8188a1cfd942858cded"
 
 [[projects]]
   name = "github.com/prometheus/client_golang"
@@ -38,7 +44,7 @@
   branch = "master"
   name = "github.com/prometheus/client_model"
   packages = ["go"]
-  revision = "99fa1f4be8e564e8a6b613da7fa6f46c9edafc6c"
+  revision = "5c3871d89910bfb32f5fcab2aa4b9ec68e65a99f"
 
 [[projects]]
   branch = "master"
@@ -48,7 +54,7 @@
     "internal/bitbucket.org/ww/goautoneg",
     "model"
   ]
-  revision = "89604d197083d4781071d3c65855d24ecfb0a563"
+  revision = "7600349dcfe1abd18d72d3a1770870d9800a7801"
 
 [[projects]]
   branch = "master"
@@ -59,11 +65,11 @@
     "nfs",
     "xfs"
   ]
-  revision = "cb4147076ac75738c9a7d279075a253c0cc5acbd"
+  revision = "05ee40e3a273f7245e8777337fc7b46e533a9a92"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "4164880afee0355bcb5dede946a616103b8849312a49d902665bba0826827fbb"
+  inputs-digest = "7a06cb8627ad47632205e51065028afefe259beff407619b07d75c6daa325b2c"
   solver-name = "gps-cdcl"
   solver-version = 1
